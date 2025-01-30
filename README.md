@@ -10,7 +10,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants **and Most importantly, it boasts a real-time language translation feature, ensuring that language barriers do not impede your meetings.**
+Built with the latest **Next.js** and **TypeScript**, it offers **secure authentication**, **meeting creation**, and key features such as **recording**, **screen sharing**, and **participant management**. Most notably, it includes a **real-time language translation** feature, enabling seamless communication across different languages
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -26,34 +26,33 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 - Elevenlabs api
 - iTranslate api
 
-## <a name="features">🔋 Features</a>
+## <a name="features">🚀 Core Features</a>  
 
+👉 **User Authentication**: Implements **Clerk** for secure login and access management, supporting **social sign-on** and **email/password authentication**, while ensuring proper authorization and role-based permissions.  
 
-👉 **Authentication**: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
+👉 **Instant Meeting**: Start a new meeting instantly with the ability to configure **camera and microphone settings** before joining.  
 
-👉 **New Meeting**: Quickly start a new meeting, configuring camera and microphone settings before joining.
+👉 **Meeting Management**: Provides participants with full control over meeting settings, including **recording, emoji reactions, screen sharing, mute/unmute, audio adjustments, grid layout, participant list view**, and **individual user management** (pinning, muting, unmuting, blocking, and video sharing controls).  
 
-👉 **Meeting Controls**: Participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
+👉 **Leave or End Meeting**: Participants can exit at any time, while hosts can **terminate the meeting for all attendees** if needed.  
 
-👉 **Exit Meeting**: Participants can leave a meeting, or creators can end it for all attendees.
+👉 **Schedule Meetings**: Plan future meetings by setting **date and time**, with easy access from the **'Upcoming Meetings'** page for link sharing or immediate launch.  
 
-👉 **Schedule Future Meetings**: Input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
+👉 **Meeting History**: Maintain a **detailed record** of past meetings, including relevant metadata and key details.  
 
-👉 **Past Meetings List**: Access a list of previously held meetings, including details and metadata.
+👉 **Recorded Sessions**: Access and playback **recorded meetings** for reference or review.  
 
-👉 **View Recorded Meetings**: Access recordings of past meetings for review or reference.
+👉 **Private Meeting Room**: Each user has a **personal meeting space** with a unique link for instant collaboration and easy sharing.  
 
-👉 **Personal Room**: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
+👉 **Quick Join via Link**: Easily participate in meetings hosted by others through a **shared meeting URL**.  
 
-👉 **Join Meetings via Link**: Easily join meetings created by others by providing a link.
+👉 **Live Audio Translation**: Break language barriers with **real-time translation** during voice calls, ensuring smooth communication.  
 
-👉 **Real Time Translation during Audio Call**: Easily communicate without any language barrier.
+👉 **Secure & Real-Time Interaction**: All actions within the platform occur **securely and in real-time**, preserving user privacy and data integrity.  
 
-👉 **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
+👉 **Adaptive UI Design**: Ensures a **responsive and seamless experience** across all devices and screen sizes.  
 
-👉 **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
-
-and many more, including code architecture and reusability. 
+And much more, including **scalable architecture** and **optimized code reusability**.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
